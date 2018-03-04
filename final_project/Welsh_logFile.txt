@@ -1,0 +1,198 @@
+
+Connected to ('127.0.0.1', 62504)
+Received from ('127.0.0.1', 62504):
+IAMAT 296e4523f3d646b7a27f7abcdb5f446a +34.068930-118.445127 1512373747.711889029
+
+connecting Alford to send  AT Welsh +0.001619100570678711 296e4523f3d646b7a27f7abcdb5f446a +34.068930-118.445127 1512373747.711889029
+
+connecting Ball to send  AT Welsh +0.001619100570678711 296e4523f3d646b7a27f7abcdb5f446a +34.068930-118.445127 1512373747.711889029
+
+Disconnected from ('127.0.0.1', 62504)
+Connected to ('127.0.0.1', 15300)
+Wrote to ('127.0.0.1', 15300):
+AT Welsh +0.001619100570678711 296e4523f3d646b7a27f7abcdb5f446a +34.068930-118.445127 1512373747.711889029
+
+Connected to ('127.0.0.1', 15301)
+Wrote to ('127.0.0.1', 15301):
+AT Welsh +0.001619100570678711 296e4523f3d646b7a27f7abcdb5f446a +34.068930-118.445127 1512373747.711889029
+
+Connected to ('127.0.0.1', 62509)
+Received from ('127.0.0.1', 62509):
+AT Welsh +0.001619100570678711 296e4523f3d646b7a27f7abcdb5f446a +34.068930-118.445127 1512373747.711889029
+
+Disconnected from ('127.0.0.1', 62509)
+Connected to ('127.0.0.1', 62511)
+Received from ('127.0.0.1', 62511):
+AT Welsh +0.001619100570678711 296e4523f3d646b7a27f7abcdb5f446a +34.068930-118.445127 1512373747.711889029
+
+Disconnected from ('127.0.0.1', 62511)
+Connected to ('127.0.0.1', 62527)
+Received from ('127.0.0.1', 62527):
+AT Alford +0.0008041858673095703 a7f159feebb84a2a96cc9bddb2428ef4 +34.068930-118.445127 1512373747.732594967
+
+connecting Alford to send  AT Alford +0.0008041858673095703 a7f159feebb84a2a96cc9bddb2428ef4 +34.068930-118.445127 1512373747.732594967
+
+connecting Ball to send  AT Alford +0.0008041858673095703 a7f159feebb84a2a96cc9bddb2428ef4 +34.068930-118.445127 1512373747.732594967
+
+Disconnected from ('127.0.0.1', 62527)
+Connected to ('127.0.0.1', 15300)
+Wrote to ('127.0.0.1', 15300):
+AT Alford +0.0008041858673095703 a7f159feebb84a2a96cc9bddb2428ef4 +34.068930-118.445127 1512373747.732594967
+
+Connected to ('127.0.0.1', 15301)
+Wrote to ('127.0.0.1', 15301):
+AT Alford +0.0008041858673095703 a7f159feebb84a2a96cc9bddb2428ef4 +34.068930-118.445127 1512373747.732594967
+
+Connected to ('127.0.0.1', 62535)
+Received from ('127.0.0.1', 62535):
+AT Alford +0.0008041858673095703 a7f159feebb84a2a96cc9bddb2428ef4 +34.068930-118.445127 1512373747.732594967
+
+Disconnected from ('127.0.0.1', 62535)
+Connected to ('127.0.0.1', 62542)
+Received from ('127.0.0.1', 62542):
+WHATSAT a7f159feebb84a2a96cc9bddb2428ef4 1 1
+
+Connected to Google with the message GET /maps/api/place/nearbysearch/json?key=AIzaSyAkH-JwtsR2tQLm-Oced8ysAZ7_AU-ttuk&location=34.068930,-118.445127&radius=1000 HTTP/1.1
+Host: maps.googleapis.com
+Content-Type: text/plain; charset=utf-8
+
+
+ Server Welsh response to whatsat from client: a7f159feebb84a2a96cc9bddb2428ef4 with the message AT Alford +0.0008041858673095703 a7f159feebb84a2a96cc9bddb2428ef4 +34.068930-118.445127 1512373747.732594967
+
+{
+   "html_attributions": [],
+   "next_page_token": "CpQCDwEAABSdEjvJyyyy913KCazORNwezXaRKi-syTYGLpve8sKu9-LUrgrqc2OasM16raxS4-JGY_J92Dqtl6_PnkbG8_l3c1-nv_Xf9Ti843ApKSwkuciaFUf6fQk7loktmnvTs-qWMAd9t3-XawRijyVrD_mGyJ0mJDUWwM8vF6VeCIpAfDS4ofeLyz01yhbZSghpYwSwu86mja2zH1VdFi6UTR2PEiDB2UpCZu6asJTXZKmgoiRqCqj6So7cDqMrGRi8DYuTwpeGQyAm49F_uEtJcovYLUnSLVZyw2AomYIYb_m1Tg65mTRZqcoN3d9TVmi65m7hPdgyYu47LPT44TJlHsO1J06VRIdn9D5JmwLB9-9iEhDPBfBGhtt3m_4NjxdXyODrGhThcoB_BpDKCVPjb0vskFgX4e6XAw",
+   "results": [
+      {
+         "geometry": {
+            "location": {
+               "lat": 34.0522342,
+               "lng": -118.2436849
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": 34.3373061,
+                  "lng": -118.1552891
+               },
+               "southwest": {
+                  "lat": 33.7036519,
+                  "lng": -118.6681759
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id": "7f7b7d8118ae8db8ed3f541159ac928c484d12ad",
+         "name": "Los Angeles",
+         "photos": [
+            {
+               "height": 712,
+               "html_attributions": [
+                  "<a href=\"https://maps.google.com/maps/contrib/100101449848330425696/photos\">Patrick Morrison</a>"
+               ],
+               "photo_reference": "CmRaAAAAI_PXJnzQm2C8ZVUOxfL-AhDx68OwZi16IWODCKDoH4aksuV7o2apjwrwIJWLud8IU86btfBjV3SdBJtOffUhZNvRpI3KI4FCYtnAJRsMOCYIEL40xI54qYszKPW7JwyTEhBHUMgVwj0dxY0UdAi9FK6vGhQ8poF4S8aRWGiZWIb5vIckUS-pzQ",
+               "width": 1200
+            }
+         ],
+         "place_id": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+         "reference": "CmRbAAAAbwsS3ldNhDW8ouzY9xhX2vZvl3uGPKEdHf-s9ebxLqWCYWyCH_rFx3E0vcPjAnlx5KGaKHzMw5Tv32xCm8of-M13LgUUehi1jIXgp_Q-gLqsb-w1JZy2Ja6R5E0SawiIEhB-wqJOSKQxGpnLPVzhx4ioGhT9ZJCI__0QfeGxRMlPb_TRe-YQpg",
+         "scope": "GOOGLE",
+         "types": [
+            "locality",
+            "political"
+         ],
+         "vicinity": "Los Angeles"
+      }
+   ],
+   "status": "OK"
+}
+
+
+Disconnected from ('127.0.0.1', 62542)
+Connected to ('127.0.0.1', 62546)
+Received from ('127.0.0.1', 62546):
+AT Alford +0.0011398792266845703 ff897f9c4c594bf2aca2b80d9cbbe034 +34.068930-118.445127 1512373750.163121939
+
+connecting Alford to send  AT Alford +0.0011398792266845703 ff897f9c4c594bf2aca2b80d9cbbe034 +34.068930-118.445127 1512373750.163121939
+
+connecting Ball to send  AT Alford +0.0011398792266845703 ff897f9c4c594bf2aca2b80d9cbbe034 +34.068930-118.445127 1512373750.163121939
+
+Disconnected from ('127.0.0.1', 62546)
+Connected to ('127.0.0.1', 15300)
+Wrote to ('127.0.0.1', 15300):
+AT Alford +0.0011398792266845703 ff897f9c4c594bf2aca2b80d9cbbe034 +34.068930-118.445127 1512373750.163121939
+
+Connected to ('127.0.0.1', 15301)
+Wrote to ('127.0.0.1', 15301):
+AT Alford +0.0011398792266845703 ff897f9c4c594bf2aca2b80d9cbbe034 +34.068930-118.445127 1512373750.163121939
+
+Connected to ('127.0.0.1', 62560)
+Connected to ('127.0.0.1', 62562)
+Connected to ('127.0.0.1', 62565)
+Received from ('127.0.0.1', 62565):
+AT Holiday +0.0013849735260009766 80eb9520d9294253824ea5342f298837 +34.068930-118.445127 1512373750.164973021
+
+connecting Alford to send  AT Holiday +0.0013849735260009766 80eb9520d9294253824ea5342f298837 +34.068930-118.445127 1512373750.164973021
+
+connecting Ball to send  AT Holiday +0.0013849735260009766 80eb9520d9294253824ea5342f298837 +34.068930-118.445127 1512373750.164973021
+
+Disconnected from ('127.0.0.1', 62565)
+Connected to ('127.0.0.1', 15300)
+Wrote to ('127.0.0.1', 15300):
+AT Holiday +0.0013849735260009766 80eb9520d9294253824ea5342f298837 +34.068930-118.445127 1512373750.164973021
+
+Connected to ('127.0.0.1', 15301)
+Wrote to ('127.0.0.1', 15301):
+AT Holiday +0.0013849735260009766 80eb9520d9294253824ea5342f298837 +34.068930-118.445127 1512373750.164973021
+
+Received from ('127.0.0.1', 62560):
+AT Holiday +0.0013849735260009766 80eb9520d9294253824ea5342f298837 +34.068930-118.445127 1512373750.164973021
+
+Disconnected from ('127.0.0.1', 62560)
+Received from ('127.0.0.1', 62562):
+AT Alford +0.0011398792266845703 ff897f9c4c594bf2aca2b80d9cbbe034 +34.068930-118.445127 1512373750.163121939
+
+Disconnected from ('127.0.0.1', 62562)
+Connected to ('127.0.0.1', 62574)
+Received from ('127.0.0.1', 62574):
+AT Holiday -999.9918060302734 80eb9520d9294253824ea5342f298837 +34.068930-118.445127 1512374750.164973021
+
+connecting Alford to send  AT Holiday -999.9918060302734 80eb9520d9294253824ea5342f298837 +34.068930-118.445127 1512374750.164973021
+
+connecting Ball to send  AT Holiday -999.9918060302734 80eb9520d9294253824ea5342f298837 +34.068930-118.445127 1512374750.164973021
+
+Disconnected from ('127.0.0.1', 62574)
+Connected to ('127.0.0.1', 62576)
+Received from ('127.0.0.1', 62576):
+AT Holiday -999.9918060302734 80eb9520d9294253824ea5342f298837 +34.068930-118.445127 1512374750.164973021
+
+Disconnected from ('127.0.0.1', 62576)
+Connected to ('127.0.0.1', 15300)
+Wrote to ('127.0.0.1', 15300):
+AT Holiday -999.9918060302734 80eb9520d9294253824ea5342f298837 +34.068930-118.445127 1512374750.164973021
+
+Connected to ('127.0.0.1', 15301)
+Wrote to ('127.0.0.1', 15301):
+AT Holiday -999.9918060302734 80eb9520d9294253824ea5342f298837 +34.068930-118.445127 1512374750.164973021
+
+Connected to ('127.0.0.1', 62595)
+Received from ('127.0.0.1', 62595):
+AT Hamilton +0.0008170604705810547 0fd95a160d9d47fea824652557a65bab +34.068930-118.445127 1512373750.190702915
+
+connecting Alford to send  AT Hamilton +0.0008170604705810547 0fd95a160d9d47fea824652557a65bab +34.068930-118.445127 1512373750.190702915
+
+connecting Ball to send  AT Hamilton +0.0008170604705810547 0fd95a160d9d47fea824652557a65bab +34.068930-118.445127 1512373750.190702915
+
+Disconnected from ('127.0.0.1', 62595)
+Connected to ('127.0.0.1', 62597)
+Connected to ('127.0.0.1', 15300)
+Wrote to ('127.0.0.1', 15300):
+AT Hamilton +0.0008170604705810547 0fd95a160d9d47fea824652557a65bab +34.068930-118.445127 1512373750.190702915
+
+Connected to ('127.0.0.1', 15301)
+Wrote to ('127.0.0.1', 15301):
+AT Hamilton +0.0008170604705810547 0fd95a160d9d47fea824652557a65bab +34.068930-118.445127 1512373750.190702915
+
+Received from ('127.0.0.1', 62597):
+AT Hamilton +0.0008170604705810547 0fd95a160d9d47fea824652557a65bab +34.068930-118.445127 1512373750.190702915
+
+Disconnected from ('127.0.0.1', 62597)

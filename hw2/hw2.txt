@@ -1,0 +1,19 @@
+convert_grammar:
+This function takes the grammar is hw1 as the input and transform it into the hw2 grammar. First, I spend time observing the different between gram1 and gram2, and also figure out  how to transfer. The basic idea I have is
+1. keep the start symbol of the hw1. (since it is start symbol)
+2. set up a function that takes a non-terminal symbol as an argument and finds all the grammar rules for this symbol, put them in a list.
+
+parse_prefix:
+This function is to parse the fragment(pass as an argument) with the grammar until we can't go further. (Then we return the suffix). Here, since we might have to try several times and to backtrack to a alternative if the earlier matcher is a blind alley, so I  think it is better to represent this function with two recursive sub-functions. In this case, I could store the previous status.
+
+The matcher function attempt rules(by definition) that apply to a non-terminal symbol(input) and calls the element_match helper function.
+
+element_match checks whether each element of the fragment can be parsed by the rule given. If a terminal symbol occurs, we are supposed to match a exact pattern. So there are two cases, one is that we in fact meet the requirement, so we just stop and record it, another is it actually doesn’t fit, then we failed on rule and try another rule(backtrack)
+
+Notice that two functions call each other continuously, so I use "and"
+
+Difficulties:
+I wanted to use a for loop to solve this problem at first, but due to the feature of OCaml, I can’t do this. One of my friends told me that I need to use one recursion for loop. So I use the matcher works as the for loop and the element_match function plays the role of recursive call.
+
+Weakness:
+I don’t know if I could say it is weakness for my program because I think if input argument is really big, I don’t know how much time it will take. I think this program should be speed up.
